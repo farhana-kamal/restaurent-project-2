@@ -1,0 +1,609 @@
+/******************
+	Global CSS
+******************/
+body{
+	font-family: 'Poppins', sans-serif;
+}
+/******************
+	Typography
+******************/
+h1{
+	color: #fff;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-transform: uppercase;
+    padding: 5px 0px;
+}
+h2{
+   color: #d0351d;
+   font-size: 40px;
+   font-family: 'Playball', cursive;
+}
+h3{
+	font-size: 25px;
+	text-transform: uppercase;
+	/*text-align: center;*/
+}
+
+h4{
+	color: #d0351d;
+    font-size: 20px;
+    font-family: 'Playball', cursive;
+    /*text-align: center;*/
+}
+h5{
+    letter-spacing: 5px;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+p{
+    font-size: 11px;
+}
+/******************************
+	Top Bar Section
+*******************************/
+.top_bar{
+	background: #333;
+	color: #fff;
+	padding-top: 15px;
+}
+.contact-icon ul li:hover{
+	cursor: pointer;
+	color: #d0351d;
+}
+.social-icon ul li:hover{
+	cursor: pointer;
+	color: #d0351d;
+}
+/*************************
+	Header Nav Section
+**************************/
+.header_nav{
+	background: url(../images/background.png);
+	background-size: cover;
+	background-position: center center;
+    background-attachment: fixed;
+}
+.header_nav .navbar{
+	padding-top: 90px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #d0351d;
+}
+#logo-text.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-right: 15px;
+}
+.navbar-dark .navbar-brand {
+    color:#d0351d;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 26px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.navbar-dark .navbar-brand:hover{
+	color:#d0351d;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:#d0351d;
+}
+.heading{
+	padding: 80px 0px 80px;
+}
+.heading h5{
+	color: #fff
+}
+.heading hr{
+	background-color: #fff;
+	width: 3%;
+	margin-left: 0px;
+}
+.button .btn{
+	background: #fff;
+    border: 1px solid #333;
+    box-shadow: 0px 0px 4px #fff;
+    border-radius: 1px;
+    padding: 10px 30px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.menu-btn{
+	padding-bottom: 100px;
+}
+/***********************
+	About Us Section
+***********************/
+.story_content{
+	padding-top: 90px;
+}
+.story_content p{
+	padding-top: 30px;
+}
+.story_content hr{
+	background-color:#d0351d;
+	width: 3%;
+	margin-top: 0px; 
+}
+.story_img{
+	padding-top: 40px;
+}
+.story_img img{
+	max-width: 80%;
+}
+
+.aboutus-btn{
+	text-align: center;
+    padding-top: 50px;
+}
+/***********************
+	Our Menu Section
+***********************/
+.our-menu{
+	background: url(../images/background-2.jpg);
+	background-size: cover;
+	background-position: center center no-repeat;
+    background-attachment: fixed;
+}
+.menu_header{
+	padding: 70px 0 40px;
+}
+.menu_header h3{
+	color: #fff;
+}
+.menu_header hr{
+	background-color: #d0351d;
+	width: 2%;
+	margin-top: 0px;
+}
+.nav-tabs {
+    border-bottom: none;
+    padding: 20px 0;
+}
+.nav-tabs .nav-link{
+	color: #fff;
+	border: none;
+}
+.nav-tabs .nav-link.active{
+    color: #d0351d;
+    background: transparent;
+    border-bottom: 1px solid #d0351d;
+    padding: 9px 0; 
+}
+.menu{
+	padding: 0px;
+}
+.menu-img{
+	padding: 0px;
+}
+.menu-list{
+	background: #333;
+	color: #fff;
+	padding: 1px 15px;
+}
+.menu-list h3{
+	padding-top: 26px;
+}
+.white_content{
+	font-size: 11px;
+	margin-bottom: 0px;
+}
+.gray_content{
+color: #696969; font-size: 11px;
+}
+/***********************
+	Chef Rememended Section
+***********************/
+.chef_rememended{
+	background: url(../images/background-3.png);
+	background-size: cover;
+	background-position: center center no-repeat;
+}
+.banner_opecity{
+	background: rgba(244, 238, 238, 0.7);
+}
+.must-try-header{
+	padding: 50px 0px 30px;
+}
+.must-try-header hr {
+    margin-top: 0px;
+    border: 0;
+    border-top: 1px solid #f55800;
+    padding: 0px 7px 43px;
+    width: 7px;
+}
+/**************************
+	Gallery Section
+**************************/
+
+.img_padding{
+	padding: 0;
+	position: relative;
+    overflow: hidden;
+}
+.img_padding::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background: #666464;
+    transform: rotate(1.5deg);
+    bottom: -23px;
+    transition: all 0.4s;
+}
+.img_padding:hover::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #666464;
+    transform: rotate(0deg);
+    bottom: 0px;
+    opacity: .7;
+}
+.img_padding:hover .overly_effect{
+    opacity: 1 ;
+}
+.overly_effect{
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    font-size: 11px;
+    transition: all .4s;
+    opacity: 0;
+    z-index: 1;
+}
+
+/***********************
+	Promo Section 
+************************/
+.promo{
+	margin-top: 50px;
+	display: inline-flex;
+}
+.promo h6{
+	padding: 20px 0px 10px;
+}
+.promo p{
+	padding-bottom: 10px;
+	font-size: 11px;
+}
+/*************************
+	Reservation Section
+**************************/
+.resevation_sec{
+	background: url(../images/background-4.png);
+	background-size: cover;
+	background-position: no-repeat;
+    background-attachment: scroll;
+}
+.reservation_opecity{
+	background: rgba(0,0,0,0.4);
+}
+.reservation_form{
+	padding-bottom: 60px;
+}
+.reservation_header h3{
+	color: #fff;
+}
+.reservation_header h4{
+	padding-top: 75px;
+}
+.reservation_header hr{
+	background-color: #d0351d;
+	width: 2%;
+	margin-top: 0px;
+}
+.booking-btn{
+	padding: 33px 0px;
+}
+
+.booking-btn .btn{
+	background: #fff;
+    border: 1px solid #333;
+    box-shadow: 0px 0px 4px #fff;
+    border-radius: 1px;
+    padding: 6px 40px;
+    width: 100%;
+}
+.form-control{
+	background: transparent;
+	font-size: 14px;
+}
+
+.input-group-text {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #ced4da;
+}
+.input-group>.input-group-prepend:not(:first-child)>.input-group-text {
+    border-left: none;
+    width: 85%;
+ }
+ .input-group>.form-control:not(:last-child) {
+    border-right: none;
+    color: #fff;
+}
+input[type=text]:focus {
+    background-color: lightgray;
+}
+input::-webkit-input-placeholder {
+color: #fff !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #fff !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #fff !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #fff !important; 
+}
+
+/*********************************
+	Upcoming Events Section
+*********************************/
+.events-section{
+	background: url(../images/background-5.png);
+	background-size: cover;
+	background-position: no-repeat;
+	background-attachment: fixed;
+}
+.events-section .banner_opecity{
+	padding-bottom: 100px;
+}
+.upcoming-events{
+	padding: 80px 0px;
+}
+.upcoming-events h3{
+	color: #333;
+}
+.upcoming-events hr{
+	background-color: #d0351d;
+	width: 2%;
+	margin-top: 0px; 
+}
+.wrap{
+	line-height: 0px;
+}
+.wrap i{
+	font-size: 11px;
+    color: #a3a5a8;
+    line-height: 15px;
+}
+.ticket_img img{
+	width: 12px;
+}
+.event_schedule{
+	background: #fff;
+	position: absolute;
+	padding: 10px;
+	width: 80%;
+	bottom: -44px;
+    left: 55px;
+}
+.event_date{
+	border: 2px solid #d0351d;
+}
+.event_date p{
+	line-height: 0;
+}
+.event_date h6{
+	padding: 15px 27px 0px;
+}
+.event_venue h6{
+	font-size: 30px;
+}
+.event_venue {
+	padding-left: 30px;
+}
+
+
+
+/******************
+	Contact Section
+*******************/
+.contact_sec{
+	background: url(../images/background-6.png);
+	background-size: cover;
+	background-position: no-repeat;
+}
+.address{
+	background: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+.address hr{
+	background-color: #d0351d;
+	width: 5%;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.contact_icon{
+	border: 1px solid #d0351d;
+    color: #d0351d;
+    padding: 8px 13px;
+}
+.contact_info p{
+	line-height: 0px;
+}
+.contact_form .row{
+	margin-bottom: 20px;
+}
+.contact_btn{
+	padding: 2px 46px;
+	color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+}
+.contact_btn:hover{
+	color: #fff;
+	background: #d0351d;
+}
+.contact_us{
+	padding-left: 12px;
+}
+.map img{
+	padding-top: 180px;
+}
+/***********************
+	Summery Section
+***********************/
+.summery_sec{
+	background: #333;
+	position: relative;
+}
+.logo{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.logo_text h6{
+    color: #d0351d;
+    font-family: 'Sedgwick Ave Display', cursive;
+    padding: 20px;
+}
+.logo_img img{
+	width: 50px;
+}
+.info{
+	margin-top: 10px;
+}
+.info i{
+	color: #a3a5a8;
+    font-size: 10px;
+}
+.info_icon i{
+	color: #a3a5a8;
+    font-size: 10px;
+    padding: 7px;
+    margin-top: 15px;
+}
+.time{
+	padding-top: 50px;
+}
+.time h6{
+	color: #fff;
+}
+.opening_time hr{
+	border-top: 1px solid #d0351d;
+    width: 30px;
+    position: absolute;
+    margin-top: 0;
+}
+.day_one p{
+	color: #a3a5a8;
+	padding-top: 40px;
+	line-height: 0;
+}
+.day_one h6{
+	color: #a3a5a8;
+}
+.day_one hr {
+    border-top: 1px solid #a3a5a8;
+    width: 90%;
+    position: absolute;
+    margin-top: 0;
+}
+.day_two p{
+	color: #a3a5a8;
+	padding-top: 20px;
+	line-height: 0;
+}
+.day_two h6{
+	color: #a3a5a8;
+}
+.newsletter{
+	padding-top: 50px;
+}
+.newsletter h6{
+	color: #fff;
+}
+.newsletter hr{
+	border-top: 1px solid #d0351d;
+    width: 30px;
+    position: absolute;
+    margin-top: 0;
+}
+.subsription_form .btn-primary{
+    color: #fff;
+    background-color: #d0351d;
+    border-color: #d0351d;
+    width: 100%;
+}
+/********************
+	Button Section
+********************/
+
+.round_button{
+	text-align: center;
+	margin-top: -32px;
+    position: absolute;
+    right: 50%;
+}
+.round_button .btn{
+	border: 3px solid #333;
+    border-radius: 50%;
+    padding: 12px 23px;
+    color: #fff;
+    font-size: 25px;
+    background: #464646;
+}
+/*********************
+	Footer Section
+*********************/
+.footer_section{
+	background: #464646;
+}
+.copyright p{
+	color: #a3a5a8;
+    letter-spacing: 1px;
+    padding-top: 12px;
+}
+.footer_nav a{
+	color: #a3a5a8;
+	font-size: 10px;
+    padding-right: 15px;
+}
+.footer_nav .navbar{
+	display: block;
+	text-align: center;
+}
+
+
+
+@media only screen and (max-width: 400px){
+	.navbar-light .navbar-brand{
+		font-size: 21px;
+	}
+	.story_img img {
+    max-width: 100%;
+	}
+	.day_event{
+		padding: 0;
+	}
+	.map img {
+    width: 0;
+	}
+	.event_schedule{
+		bottom: 14px;
+    	left: 34px;
+	}
+}
